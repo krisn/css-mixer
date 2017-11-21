@@ -20,7 +20,8 @@
     ],
     "plugins": [
       "external-helpers",
-      "transform-export-extensions"
+      "transform-export-extensions",
+      "syntax-dynamic-import"
     ]
   },
   "eslintConfig": {

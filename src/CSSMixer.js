@@ -7,7 +7,7 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-class Greeting {
+class CSSMixer {
 
   constructor(name) {
     this.name = name || 'Guest';
@@ -19,4 +19,4 @@ class Greeting {
 
 }
 
-export default Greeting;
+export default CSSMixer;

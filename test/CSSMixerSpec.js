@@ -8,21 +8,21 @@
  */
 
 import { expect } from 'chai';
-import Greeting from '../src/Greeting';
+import CSSMixer from '../src/CSSMixer';
 
-describe('Greeting', () => {
+describe('CSSMixer', () => {
 
-  describe('greeting.hello()', () => {
+  describe('cssmixer.hello()', () => {
 
     it('should return welcome message for a guest user', () => {
-      const greeting = new Greeting();
-      const message = greeting.hello();
+      const cssmixer = new CSSMixer();
+      const message = cssmixer.hello();
       expect(message).to.be.equal('Welcome, Guest!');
     });
 
     it('should return welcome message for a named user', () => {
-      const greeting = new Greeting('John');
-      const message = greeting.hello();
+      const cssmixer = new CSSMixer('John');
+      const message = cssmixer.hello();
       expect(message).to.be.equal('Welcome, John!');
     });
 
