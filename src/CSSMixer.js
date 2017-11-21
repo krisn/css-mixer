@@ -17,11 +17,11 @@ class CSSMixer {
     return `Welcome, ${this.name}!`;
   }
 
-  css2json(css: string) {
+  css2json(css) {
     return '';
   }
 
-  json2css(json: any) {
+  json2css(json) {
     return '';
   }
 
