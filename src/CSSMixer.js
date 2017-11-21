@@ -17,6 +17,17 @@ class CSSMixer {
     return `Welcome, ${this.name}!`;
   }
 
+  css2json(css: string) {
+    return '';
+  }
+
+  json2css(json: any) {
+    return '';
+  }
+
+  cssmix() {
+    return '';
+  }
 }
 
 export default CSSMixer;
