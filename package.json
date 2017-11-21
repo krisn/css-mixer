@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "css-mixer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "CSS mixer",
   "repository": "krisn/css-mixer",
   "author": "Kris Nyunt",
@@ -11,11 +11,16 @@
   "jsnext:main": "index.es6.js",
   "babel": {
     "presets": [
-      "es2015",
-      "stage-0"
+      [
+        "es2015",
+        {
+          "modules": false
+        }
+      ]
     ],
     "plugins": [
-      "transform-runtime"
+      "external-helpers",
+      "transform-export-extensions"
     ]
   },
   "eslintConfig": {
